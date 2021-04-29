@@ -121,6 +121,10 @@ the other direction.
 
 ![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/MotordirectionCode.PNG)
 
+You can achieve the same effect by switching the output from negative to positive or vice versa:
+
+![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/MotordirectionCode2.PNG)
+
 
 
 
