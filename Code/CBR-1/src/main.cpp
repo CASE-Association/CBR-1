@@ -34,7 +34,7 @@ VectorFloat gravity;    // [x, y, z]            gravity vector
 float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gravity vector
 
 /*********Tune these 4 values for your BOT*********/
-double setpoint= 180; //set the value when the bot is perpendicular to ground using serial monitor. 
+double setpoint = 180; //set the value when the bot is perpendicular to ground using serial monitor. 
 
 //###############################################
 //Change those Values according to your Design
@@ -66,15 +66,9 @@ void Forward() //Code to rotate the wheel forward
     digitalWrite(in1B, HIGH);
     digitalWrite(in2B, LOW);
 
-    
     analogWrite(pwmA, output);
     analogWrite(pwmB, output);
-  /*
-    analogWrite(6,output);
-    analogWrite(9,0);
-    analogWrite(10,output);
-    analogWrite(11,0);
-    */
+
     Serial.print("F"); //Debugging information 
 }
 
@@ -91,12 +85,7 @@ void Reverse() //Code to rotate the wheel Backward
 
     analogWrite(pwmA, -1*output);
     analogWrite(pwmB, -1*output);
-  /*
-    analogWrite(6,0);
-    analogWrite(9,output*-1);
-    analogWrite(10,0);
-    analogWrite(11,output*-1); 
-    */
+
     Serial.print("R");
 }
 
@@ -114,12 +103,6 @@ void Stop() //Code to stop both the wheels
     analogWrite(pwmA, 0);
     analogWrite(pwmB, 0);
 
-  /*
-    analogWrite(6,0);
-    analogWrite(9,0);
-    analogWrite(10,0);
-    analogWrite(11,0); 
-    */
     Serial.print("S");
 }
 
@@ -134,7 +117,6 @@ void setup(){
 
   pinMode(LED1,OUTPUT);
   pinMode(LED2,OUTPUT);
-
 
 
   //Serial.begin(9600);
