@@ -40,6 +40,9 @@ The STL file for this extra piece can also be found in the CAD folder.
 There's quite a bit of it.
 
 ## Soldering components to the PCB
+
+![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/IMG_20210429_180747__01.jpg)
+
 The three main circuits to solder to the PCB are:
 
   - Arduino Nano
