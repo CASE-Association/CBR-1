@@ -34,8 +34,27 @@ The 3D-printed chassi can, if not bought through iZettle, be redesigned and 3D-p
 
 ![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/Andreas%20dubbeldeckare.jpg)
 
+The STL file for this extra piece can also be found in the CAD folder.
 
-The STL file for this extra piece can be found in the CAD folder.
+# Soldering
+There's quite a bit of it.
+
+## Soldering components to the PCB
+The three main circuits to solder to the PCB are:
+
+  - Arduino Nano
+  - TB6612FNG
+  - MPU6050
+
+The PCB is marked where to solder each component, but you can attach them in two ways:
+
+### Directly to the PCB
+This gives the most clean look, but can be quite troublesome if something goes wrong. It's very important that you orient the components in the correct way (they fit both ways, but only one works)! Double check that the ports on the components match the ones on the PCB before soldering.
+
+### With female pin connectors to the PCB
+Solder female pin connectors to the PCB and then attach your components to them. This way you can reuse components if you don't feel like buying the same component for another project in the future. If a component fails, you can also replace them much easier.
+
+Connectors can be soldered to the ports for 6-12 V, powersupply, motor A and motor B if you like. This makes it easier to detach parts of the robot without needing to desolder anything. In the example on page 1, 90° male pin connectors are used on the PCB while the motors and batteries all have female pin connectors soldered to their respective cables.
 
 
 
