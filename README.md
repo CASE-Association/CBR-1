@@ -73,12 +73,13 @@ For each motor, solder wires to each of the connections on the motor. Heatshrink
 If you only want to use one switch, use it with the 9V battery. This ensures that the only switch used is turning the Arduino Nano on/off (since the 9-12V port is powering the Nano and PSU/6V is powering the motors).
 The switch can be between the battery and the positive or the negative pin on the PSU/6V ports, since it's breaking the circuit. We soldered a wire from the positive pole of the batteryholder to the switch, and then another wire (dupont-cable with one end cut off) on the other pin on the switch. Another dupont cable was soldered to the negative pole on the battery holder.
 
-Repeat this for the other pack, but ignore the switch if you do not want to use two of them. But remember, having control over both batterypacks while the robot is in action is very helpful. We recommend two switches!
+Repeat this for the other pack, but ignore the switch if you do not want to use two of them. Remember, having control over both batterypacks while the robot is in action is very helpful. We recommend two switches!
 # Assembly
+Bring out the glue gun! 
 
 ## Gluing
 
-Bring out the glue gun! Everything except for the PCB is attached with hot glue, so just glue on the motors and batterypacks!
+Everything except for the PCB is attached with hot glue, so just glue on the motors and batterypacks! Remember not to orient the packs in a way that you can't remove/attach batteries.
 
 
 
