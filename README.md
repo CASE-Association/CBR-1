@@ -43,7 +43,7 @@ There's quite a bit of it.
 
 ![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/IMG_20210429_180747__01.jpg)
 
-The three main circuits to solder to the PCB are:
+The three main components to solder to the PCB are:
 
   - Arduino Nano
   - TB6612FNG
