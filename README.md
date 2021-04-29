@@ -49,7 +49,7 @@ The three main components to solder to the PCB are:
   - TB6612FNG
   - MPU6050
 
-The PCB is marked where to solder each component, but you can attach them in two ways:
+The PCB is marked where to attach each component, but you can solder in two ways:
 
 ### Directly to the PCB
 This gives the most clean look, but can be quite troublesome if something goes wrong. It's very important that you orient the components in the correct way (they fit both ways, but only one works)! Double check that the ports on the components match the ones on the PCB before soldering.
@@ -57,7 +57,9 @@ This gives the most clean look, but can be quite troublesome if something goes w
 ### With female pin connectors to the PCB
 Solder female pin connectors to the PCB and then attach your components to them. This way you can reuse components if you don't feel like buying the same component for another project in the future. If a component fails, you can also replace them much easier.
 
-Connectors can be soldered to the ports for 6-12 V, powersupply, motor A and motor B if you like. This makes it easier to detach parts of the robot without needing to desolder anything. In the example on page 1, 90° male pin connectors are used on the PCB while the motors and batteries all have female pin connectors soldered to their respective cables.
+Connectors can be soldered to the ports for 6-12 V, powersupply (marked "PSU" or "6V"), motor A and motor B if you like. This makes it easier to detach parts of the robot without needing to desolder anything. In the example on page 1, 90° male pin connectors are used on the PCB while the motors and batteries all have female pin connectors soldered to their respective cables.
 
-
+![top](https://github.com/CASE-Association/CBR-1/blob/main/Pictures/90degreeConnectors.jpg)
+![top](https://github.com/CASE-Association/CBR-1/blob/main/Pictures/4xAA.jpg)
+![top](https://github.com/CASE-Association/CBR-1/blob/main/Pictures/9V.jpg)
 
