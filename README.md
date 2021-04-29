@@ -1,7 +1,7 @@
 # CBR-1
 Case Balancing Robot 1
 
-![top][https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/IMG_20210428_215750.jpg]
+![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/IMG_20210428_215750.jpg)
 
 Beginner balancing robot developed by CASE Association.
 
