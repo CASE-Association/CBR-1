@@ -32,7 +32,7 @@ All of the components are available to purchase in the iZettle, but feel free to
 
 The 3D-printed chassi can, if not bought through iZettle, be redesigned and 3D-printed if you like. The STL file is provided in the CAD folder, and you can also design things to add to the robot! The picture below shows an example of a way to increase the distance between the ground and the centrum of mass by placing the batteries on top. This makes it easier for the robot to balance!
 
-![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/Andreas%20dubbeldeckare.jpg
+![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/Andreas%20dubbeldeckare.jpg)
 
 
 The STL file for this extra piece can be found in the CAD folder.
