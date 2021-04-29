@@ -144,8 +144,22 @@ Start by adjusting the *Kp* value. This affects the output based on the differen
 If it's too slow or "weak", increase the value. If it's too violent and jerky, decrease the value.
 
 After that, move on to *Kd*. This affects the output based on the derivative.
+If it's too jittery, reduce the value.
 
 Lastly, adjust *Ki*. This affects the output based on the integral.
+Start from a low value and increase it until it works.
+
+It should now balance on its own!
+
+# Improvements
+
+There's a lot about this robot that can be improved. Here's a list of things to improve if you'd like:
+  - 3D-printed chassi: Design your own chassi or some piece to be attached to it! The center of mass needs to get higher!
+  - Code that takes velocity into concideration: Currently, the robot is satisfied as long as it's standing upright, even if its travelling at max speed. Try to fix this in the code!
+  - Improved PCB: If you're into SMD, you can design a PCB with no throughhole components and only surface mounted ones. It will look much cooler!
+  - Wireless controls: You could attach for instance an NRF24L01 to enable wireless communication with a controller!
+  - Other batteries: It is possible to use for instance LiPo batteries to enable more power, while also only needing one battery.
+  - Measure the angle that the motors rotate to: Since regular DC motors and no stepper motors (or something similar) are used in this project, the robot does not know how much the wheels have actually rotated. It is possible to use sensors to measure this and to use the information in conjunction with the controls-code.
 
 
 
