@@ -79,7 +79,17 @@ Bring out the glue gun!
 
 ## Gluing
 
-Everything except for the PCB is attached with hot glue, so just glue on the motors and batterypacks! Remember not to orient the packs in a way that you can't remove/attach batteries.
+Everything except for the PCB is attached with hot glue, so just glue on the motors and batterypacks! Remember not to orient the packs in a way where you can't remove/attach batteries.
+
+## PCB
+Drop in an M3 nut in each hole and screw on the PCB with the M3 screws.
+
+## Connecting the wires
+If you're not using connectors, replace "connect" with "solder".
+Connect the wires from the 9V battery holder to the 9-12V port.
+Connect the wires from the 4xAA battery holder to the PSU/6V port.
+Connect the wires from one of the motor to the "Motor A" port. It does not matter which wire goes to which pin, this can be corrected in the code if the motor turns the wrong way.
+Connect the wires from the other motor to the "Motor B" port.
 
 
 
