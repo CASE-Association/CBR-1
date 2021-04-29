@@ -111,6 +111,8 @@ Make sure they are in your project!
 
 Upload the code to the Nano. Do not freak out if it doesn't work at first! There's a few things that might need to be adjusted.
 
+
+### Motor rotation directions
 When tilting the robot to one direction, the motors should turn in a way that drives it in that direction. If a specific motor does not turn that direction, you can switch the connectors.
 This will switch the direction the motor turns. Do this to both motors so that they drive in the direction the robot tilts.
 
@@ -124,6 +126,19 @@ the other direction.
 You can achieve the same effect by switching the output from negative to positive or vice versa:
 
 ![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/MotordirectionCode2.PNG)
+
+### Calibration
+The robot might not perform optimally with the default values included. This will be fixed here.
+
+#### Target angle
+If the robot is trying to escape everytime you set it down, you might have to calibrate the setpoint.
+If it's too low or too high, the robot will correct itself to a too low of an angle, making it tilt and therefore accelerating
+in that direction. Problems with the setpoint can also occur if the MPU6050 is not soldered/connected parallell to the PCB.¨
+If you feel comfortable trying to bend it parallell, go ahead, but adjusting the setpoint in the code also works.
+
+
+
+
 
 
 

@@ -34,15 +34,16 @@ VectorFloat gravity;    // [x, y, z]            gravity vector
 float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gravity vector
 
 /*********Tune these 4 values for your BOT*********/
+
 double setpoint = 180; //set the value when the bot is perpendicular to ground using serial monitor. 
 
-//###############################################
+//#############################################
 //Change those Values according to your Design
 //#############################################
-double Kp = 15; //Set this first      DEFAULT: 21
-double Ki = 200; //Finally set this   DEFAULT: 140
-double Kd = 0.6; //Set this secound   DEFAULT: 0.8
-//##############################################
+double Kp = 15;  // Set this first
+double Ki = 200; // Finally set this 
+double Kd = 0.6; // Set this second
+//#############################################
 
 double input, output;
 PID pid(&input, &output, &setpoint, Kp, Ki, Kd, DIRECT);
