@@ -61,5 +61,31 @@ Connectors can be soldered to the ports for 6-12 V, powersupply (marked "PSU" or
 
 ![top](https://github.com/CASE-Association/CBR-1/blob/main/Pictures/90degreeConnectors.jpg)
 ![top](https://github.com/CASE-Association/CBR-1/blob/main/Pictures/4xAA.jpg)
-![top](https://github.com/CASE-Association/CBR-1/blob/main/Pictures/9V.jpg)
+
+When soldering wires to the batterypacks, don't forget to use red for positive and black for negative! Things get very problematic if they are mixed up!
+
+## Wiring
+
+### Motors
+For each motor, solder wires to each of the connections on the motor. Heatshrink is good to use here (don't for get to put it on before you solder!), and applying some hot glue around the connection after everything is done will decrease the risk of the copper breaking from bending. Also, using dupont cables with female pin connectors is a fast way to get wires without having to attach connectors to the end of the wires. Just cut one end off and keep the other!
+
+### Batterypacks
+If you only want to use one switch, use it with the 9V battery. This ensures that the only switch used is turning the Arduino Nano on/off (since the 9-12V port is powering the Nano and PSU/6V is powering the motors).
+The switch can be between the battery and the positive or the negative pin on the PSU/6V ports, since it's breaking the circuit. We soldered a wire from the positive pole of the batteryholder to the switch, and then another wire (dupont-cable with one end cut off) on the other pin on the switch. Another dupont cable was soldered to the negative pole on the battery holder.
+
+Repeat this for the other pack, but ignore the switch if you do not want to use two of them. But remember, having control over both batterypacks while the robot is in action is very helpful. We recommend two switches!
+# Assembly
+
+## Gluing
+
+Bring out the glue gun! Everything except for the PCB is attached with hot glue, so just glue on the motors and batterypacks!
+
+
+
+
+
+
+
+
+
 
