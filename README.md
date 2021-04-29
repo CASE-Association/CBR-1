@@ -115,7 +115,9 @@ When tilting the robot to one direction, the motors should turn in a way that dr
 This will switch the direction the motor turns. Do this to both motors so that they drive in the direction the robot tilts.
 
 If you do not have connectors, but have soldered the wires to each port, you can switch the direction of the motors in the code.
-This is done by changing the LOW to HIGH or HIGH to LOW of both ports on a specific motor.
+This is done by changing the LOW to HIGH or HIGH to LOW of both ports on a specific motor in the functions *Forward* and *Reverse*.
+Having in1A LOW and in2A HIGH will rotate the motor in one direction, and switching in1A to HIGH and in2A to LOW will make it rotate
+the other direction.
 
 ![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/MotordirectionCode.PNG)
 
