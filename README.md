@@ -57,6 +57,10 @@ This gives the most clean look, but can be quite troublesome if something goes w
 ### With female pin connectors to the PCB
 Solder female pin connectors to the PCB and then attach your components to them. This way you can reuse components if you don't feel like buying the same component for another project in the future. If a component fails, you can also replace them much easier.
 
+## LEDs
+If you want LEDs on your robot, solder them with their respective resistor. Don't forget that LEDs are Light Emitting *Diodes*, the kathode (the shorter pin) must be put into the hole near the "flat side" of the footprint on the PCB. The anode (the longer pin) must be put into the hole near the "round side".
+
+## Wiring
 Connectors can be soldered to the ports for 6-12 V, powersupply (marked "PSU" or "6V"), motor A and motor B if you like. This makes it easier to detach parts of the robot without needing to desolder anything. In the example on page 1, 90° male pin connectors are used on the PCB while the motors and batteries all have female pin connectors soldered to their respective cables.
 
 ![top](https://github.com/CASE-Association/CBR-1/blob/main/Pictures/90degreeConnectors.jpg)
@@ -64,11 +68,10 @@ Connectors can be soldered to the ports for 6-12 V, powersupply (marked "PSU" or
 
 When soldering wires to the batterypacks, don't forget to use red for positive and black for negative! Things get very problematic if they are mixed up!
 
-## Wiring
-
 ### Motors
 For each motor, solder wires to each of the connections on the motor. Heatshrink is good to use here (don't for get to put it on before you solder!), and applying some hot glue around the connection after everything is done will decrease the risk of the copper breaking from bending. Also, using dupont cables with female pin connectors is a fast way to get wires without having to attach connectors to the end of the wires. Just cut one end off and keep the other!
 
+If the wheels aren't already attached, attach them now.
 ### Batterypacks
 If you only want to use one switch, use it with the 9V battery. This ensures that the only switch used is turning the Arduino Nano on/off (since the 9-12V port is powering the Nano and PSU/6V is powering the motors).
 The switch can be between the battery and the positive or the negative pin on the PSU/6V ports, since it's breaking the circuit. We soldered a wire from the positive pole of the batteryholder to the switch, and then another wire (dupont-cable with one end cut off) on the other pin on the switch. Another dupont cable was soldered to the negative pole on the battery holder.
@@ -91,6 +94,27 @@ If you're not using connectors, replace "connect" with "solder":
   - Connect the wires from one of the motor to the "Motor A" port. It does not matter which wire goes to which pin, this can be corrected in the code if the motor turns the wrong way.
   - Connect the wires from the other motor to the "Motor B" port.
 
+The robot is now fully assembled!
+
+# Software
+
+We use PlatformIO for this project! The code can be found in the "Code" folder.
+
+## Libraries
+The following libraries are needed:
+  - PID_v1.h
+  - I2Cdev.h
+  - MPU6050_6Axis_MotionApps20.h
+Make sure they are in your project!
+
+## Adjusting the code
+
+Upload the code to the Nano. Do not freak out if it doesn't work at first! There's a few things that might need to be adjusted.
+
+When tilting the robot to one direction, the motors should turn in a way that drives it in that direction. If a specific motor does not turn that direction, you can switch the connectors.
+This will switch the direction the motor turns. Do this to both motors so that they drive in the direction the robot tilts.
+
+If you do not have connectors, but have soldered the wires to each port, you can switch the direction of the motors in the code.
 
 
 
