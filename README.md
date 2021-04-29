@@ -98,7 +98,7 @@ The robot is now fully assembled!
 
 # Software
 
-We use PlatformIO for this project! The code can be found in the "Code" folder.
+PlatformIO was used for this project. The code can be found in the "Code" folder.
 
 ## Libraries
 The following libraries are needed:
@@ -107,7 +107,7 @@ The following libraries are needed:
   - MPU6050_6Axis_MotionApps20.h
 Make sure they are in your project!
 
-## Adjusting the code
+## Using the code
 
 Upload the code to the Nano. Do not freak out if it doesn't work at first! There's a few things that might need to be adjusted.
 
