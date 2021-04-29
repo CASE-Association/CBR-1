@@ -1,0 +1,18 @@
+
+1 x Arduino Nano
+1 x TB6612FNG
+1 x MPU6050
+1 x CBR-1 3D-printed chassi
+2 x Yellow 6V DC motors (with wheels)
+1 x Rockerswitch or other switch (between 9V battery and PCB)
+1 x 4xAA batteryholder
+1 x 9V batteryholder
+4 x M3x10 screw (M3x12 might also work)
+4 x M3 nut
+
+Optional:
+
+1 x Rockerswitch or other switch (now between 4xAA batteryholder and PCB)
+2 x LED
+2 x Resistors R1 and R2 (whatever resistance you prefer for LEDs, but around 300 ohm works fine. "100 Ohm" on the PCB is referring the bold)
+
