@@ -61,6 +61,9 @@ Solder female pin connectors to the PCB and then attach your components to them.
 If you want LEDs on your robot, solder them to the PCB with their respective resistor. Don't forget that LEDs are Light Emitting *Diodes*.The kathode (the shorter pin) must be put into the hole near the "flat side" of the footprint on the PCB. The anode (the longer pin) must be put into the hole near the "round side".
 
 ## Wiring
+
+Don't forget heatshrink before you solder!
+
 Connectors can be soldered to the ports for 6-12 V, powersupply (marked "PSU" or "6V"), motor A and motor B if you like. This makes it easier to detach parts of the robot without needing to desolder anything. In the example on page 1, 90° male pin connectors are used on the PCB while the motors and batteries all have female pin connectors soldered to their respective cables.
 
 ### Batterypacks
