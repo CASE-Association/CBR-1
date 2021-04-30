@@ -142,7 +142,11 @@ The robot might not perform optimally with the default values included. This wil
 #### Target angle
 If the robot is trying to escape everytime you set it down, you might have to calibrate the setpoint.
 If it's too low or too high, the robot will correct itself to a too low of an angle, making it tilt and therefore accelerating
-in that direction. Problems with the setpoint can also occur if the MPU6050 is not soldered/connected parallell to the PCB.¨
+in that direction.
+
+![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/Setpoint.PNG)
+
+Problems with the setpoint can also occur if the MPU6050 is not soldered/connected parallell to the PCB.
 If you feel comfortable trying to bend it parallell, go ahead, but adjusting the setpoint in the code also works.
 
 #### PID
