@@ -161,6 +161,7 @@ It should now balance on its own!
 
 #### LEDs
 You can control the LEDs (if you have them) by writing a 1 or a 0 to their respective ports:
+
 ![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/LEDs.PNG)
 
 # Improvements
