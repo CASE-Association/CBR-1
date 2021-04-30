@@ -150,7 +150,7 @@ Problems with the setpoint can also occur if the MPU6050 is not soldered/connect
 If you feel comfortable trying to bend it parallell, go ahead, but adjusting the setpoint in the code also works.
 
 #### PID
-If the robot isn't balancing, or trying to violently, you can adjust the PID values (especially if you've attached the batteries
+If the robot isn't balancing, or trying too violently, you can adjust the PID values (especially if you've attached the batteries
 in another way compared to ours at the top of this page!).
 
 Start by adjusting the *Kp* value. This affects the output based on the difference from the measured and target value.
