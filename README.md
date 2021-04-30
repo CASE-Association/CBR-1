@@ -159,6 +159,10 @@ Start from a low value and increase it until it works.
 
 It should now balance on its own!
 
+#### LEDs
+You can control the LEDs (if you have them) by writing a 1 or a 0 to their respective ports:
+![top](https://raw.githubusercontent.com/CASE-Association/CBR-1/main/Pictures/LEDs.PNG)
+
 # Improvements
 
 There's a lot about this robot that can be improved. Here's a list of things to improve if you'd like:
