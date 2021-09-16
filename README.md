@@ -18,6 +18,8 @@ Beginner balancing robot developed by CASE Association.
   - 4 x M3 nut
   - Wires
   - Heatshrink
+  - 4 x AA batteries (there are some in the lab you can try out with your bot with but it's a good idea to bring your own batteries)
+  - 1 x 9V battery (same with AA batteries, it's nice to bring your own)
 
 Optional:
 
@@ -93,7 +95,7 @@ Bring out the glue gun!
 Everything except for the PCB is attached with hot glue, so just glue on the motors and batterypacks! Remember not to orient the packs in a way where you can't remove/attach batteries.
 
 ## PCB
-Drop in an M3 nut in each hole and screw on the PCB with the M3 screws.
+Drop in an M3 nut in each hole and screw on the PCB with the M3 screws. It's possible to glue the PCB to the chassi but it's made to be assembled with nuts and screws. 
 
 ## Connecting the wires
 If you're not using connectors, replace "connect" with "solder":
